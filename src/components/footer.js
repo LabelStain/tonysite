@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphl, useStaticQuery } from 'gatsby'
 import footerStyles from './footer.module.css'
-import gitLogo from './gitlogo.png'
+import vimLogo from './vim2.png'
 import linklog from './linkedlogo.png'
 
 const Footer = () => {
@@ -18,10 +18,10 @@ const Footer = () => {
     return (
         <footer className={footerStyles.footer}>
                     <div className={footerStyles.icons}>
-            <a href="https://github.com/TimdinanCSUF">
-            <img className={footerStyles.icon} src={gitLogo} alt="gitLogo" />
+            <a href="https://vimeo.com/user164749592">
+            <img className={footerStyles.icon} src={vimLogo} alt="gitLogo" />
             </a>
-            <a href="https://www.linkedin.com/in/timothy-dinan/">
+            <a href="https://www.linkedin.com/in/tony-tewes-02b271230/">
             <img className={footerStyles.icon} src={linklog} alt="linkLogo" />
 
             </a>
